@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Producción</title>
+    <link rel="icon" type="image/png" href="C:\Users\CDCR1\OneDrive\Escritorio\new\1659315697730.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="container">
+    <header>
+            <h1>Reporte De producción</h1>        
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="linea1.html"><button id="butnav">linea 1</button> </a>                           
+            </li>
+            <li>
+                <a href="linea2.html"><button id="butnav">linea 2</button></a>
+            </li>
+            <li>
+                <a href="linea3.html"><button id="butnav">linea 3</button></a>
+            </li>
+            <li>
+                <a href="linea4.html"><button id="butnav">linea 4</button></a>
+            </li>
+            <li>
+                <a href="trazabilidad.html"><button id="butnav">trazabilidad</button></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="clearfix"></div>
+    <section id="content">
+        <div id="disponibilidad">
+
+        <script type="text/javascript">
+      
+      
+          
+          document.write("2");</script>
+          <script>
+           var NP = prompt("NUMERO DE PLACAS ").padStart(2,'0');
+           document.write(NP);  
+          </script>
+          
+          <script>
+            let date = new Date()
+            let day = `${(date.getDate())}`.padStart(2,'0');
+
+
+            const monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Yayo", "Junio",
+            "Ulio", "Gagosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+            ];
+            const mes = monthNames[new Date ().getMonth()].substring(0,1);
+
+
+
+            // Obtener el año
+            const año = new Date().getFullYear().toString(); // getFullYear() retorna un número, para poder usar slice() necesitamos convertirlo a un string utilizando toString()
+            const finalAño = año.slice(-2);
+
+            const finalNombre = `${day}`+mes+finalAño;
+            document.write(finalNombre);
+
+          </script>
+           <script>
+           var LP = prompt("LINEA");
+           document.write(LP);
+          </script>
+
+           <script>
+           var TP = prompt("TURNO");
+           document.write(TP);
+          </script>
+
+           <script>
+           var hotmelt=window.confirm("LLEVA HOTMELT?")
+
+           if(hotmelt==true){
+            document.write("H");
+           }
+           else{
+            document.write(" ")
+           }
+
+          </script>
+
+          <script>
+            var tipp =prompt("PLACA POSITIVA");
+            document.write(tipp);
+          </script>
+
+          <script>
+            var tipN =prompt("PLACA NEGATIVA");
+            document.write(tipN);
+          </script>
+
+          <script>
+            var trip =prompt("TRIPULACION");
+            document.write(trip);
+          </script>
+
+    </section>
+    <aside>
+        <a href="24-34-LBN2.html"><button>24-34-LBN2</button></a>
+        <br/>
+        <br/>
+        <a href="27-48.html"><button>27-48</button></a>
+        <br/>
+        <br/>
+        <a href="31.html"><button>31</button></a>
+        <br/>
+        <br/>
+        <a href="4D-4DLT-8D.html"><button>4D-4DLT-8D</button></a>
+        <br/>
+        <br/>
+    </aside>
+    <div class="clearfix"></div>
+    <footer>
+        &copy;Clarios 2020. Todos los derechos reservados.
+    </footer>
+    </div>
+    </body>
+</html>

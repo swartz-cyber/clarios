@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+header{
+    background:linear-gradient(90deg,  #530a7a 0%,#ee2c37 30%, #f9a219 90%) no-repeat;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    line-height: 74px;
+    color: white;
+   
+}
+nav{
+    background-color:#530a7a;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    border-bottom:  1px solid white;
+    border-top: 1px solid white;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 1px;
+    color: white;
+    
+
+}
+.clearfix{
+    clear: both;
+}
+#index{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+}
+
+#content{
+    float: right;
+    width: 80%;
+    background: white;
+    min-height: 400px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+aside{
+    float: left;
+    width: calc(20%-20px);
+    background:linear-gradient(90deg,#f9a219  0,#ee2c37 30%,#530a7a 90%) no-repeat;
+    min-height: 400px;
+    padding: 10px;
+    padding-top: 17px;
+    border-right: 2px black;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    
+}
+button{
+    font-size: 13px;
+    line-height: 40px;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
+
+#disponibilidad{
+    
+    color: indigo;
+    font-size: 21px;
+  
+}
+#B{
+    color: indigo;
+    font-size: 21px;
+  
+}
+#TD{
+    color: indigo;
+    font-size: 21px;
+}
+#eficiencia{
+    color: indigo;
+    font-size: 21px;
+    
+}
+#F{
+    color: indigo;
+    font-size: 21px;
+}
+#Calidad{
+    color: indigo;
+    font-size: 21px;
+    
+}
+#Oee{
+    color: indigo;
+    font-size: 21px;
+}
+#container{
+    width: 80%;
+    margin: 0px auto;
+    
+}
+
+strong{
+
+    color: red;
+    font-size: 22px;
+}
+#butnav{
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+    height: 38px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+hr{
+    width: 80%;
+    height: 0px;
+}

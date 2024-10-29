@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Producción</title>
+    <link rel="icon" type="image/png" href="C:\Users\CDCR1\OneDrive\Escritorio\new\1659315697730.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="container">
+    <header>
+            <h1>Reporte De producción</h1>        
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="linea1.html"><button id="butnav">linea 1</button> </a>                           
+            </li>
+            <li>
+                <a href="linea2.html"><button id="butnav">linea 2</button></a>
+            </li>
+            <li>
+                <a href="linea3.html"><button id="butnav">linea 3</button></a>
+            </li>
+            <li>
+                <a href="linea4.html"><button id="butnav">linea 4</button></a>
+            </li>
+            <li>
+                <a href="trazabilidad.html"><button id="butnav">trazabilidad</button></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="clearfix"></div>
+    <section id="content">
+        <div id="disponibilidad">
+
+        <script type="text/javascript">
+      
+            alert("Tiempo Planeado de produccion");
+              var g_ppt = prompt("TPP")
+            alert("Calcular Tiempo de A");
+               var A = prompt("Tiempo de A")
+    
+            
+          var g_fambt = 3.3;
+          var g_fambig = 1.9;
+          var g_27 = 3.7;
+          var g_lbnl1=4.2;
+          var g_Ns60l1=4.0;
+          var g_42L1=3.9;
+          var g_Lbn3l1=3.8;
+          var g_24l1=3.6;
+          var g_47l1=2.9;
+          var g_75l1=2.2;
+          var g_U1l2=3.0;
+          var g_ns60l2=2.7;
+          var g_86l2=2.7;
+          var g_42l2=2.6;
+          var g_lbn3l2=2.4;
+          var g_65l2=2.1;
+          var g_U1l3=3.0;
+          var g_lbn2l3=2.7;
+          var g_24l4=3.9;
+      
+          disponibilidad = g_ppt - A
+          resultado = disponibilidad / g_ppt
+          document.write("<strong>Disponibilidad :</strong> " + resultado);</script>
+          </div>
+          <hr/>
+          <div id="B">
+              <script>
+    
+          alert("C ");
+          var C = prompt("Total Baterias producidas ");
+        
+        
+          B = C / g_fambig
+          TD = g_ppt - A
+          resultado2 = B / disponibilidad 
+          document.write("<strong>B :</strong> " + B);
+          </script>
+          </div>
+          <hr/>
+          <div id="TD">
+              <script>
+          document.write("<strong>TD :</strong>" + TD);
+              </script>
+          </div>
+          <hr/>
+          <div id="eficiencia">
+              <script>
+          document.write("<strong>Eficiencia :</strong>  " + resultado2);
+          </script>
+          </div>
+          <hr/>
+          <div id="F">
+              <script>
+    
+          alert("Calcular Calidad ");
+          var E = prompt("Calidad");
+        
+          F = E / g_fambig
+          calidad = B - F
+          resultado3 = calidad / B
+          document.write("<strong>F :</strong>" + F);
+          </script>
+          </div>
+          <hr/>
+          <div id="Calidad">
+              <script>
+          document.write("<strong>Calidad :</strong> "  + resultado3);
+          </script>
+          </div>
+          <hr/>
+          <div id="Oee">
+              <script>
+                document.write("<strong>Oee :</strong> " + resultado * resultado2 * resultado3 * 100 );
+              </script>
+          </div>
+
+        
+
+    </section>
+    <aside>
+        <a href="24-34-LBN2.html"><button>24-34-LBN2</button></a>
+        <br/>
+        <br/>
+        <a href="27-48.html"><button>27-48</button></a>
+        <br/>
+        <br/>
+        <a href="31.html"><button>31</button></a>
+        <br/>
+        <br/>
+        <a href="4D-4DLT-8D.html"><button>4D-4DLT-8D</button></a>
+        <br/>
+        <br/>
+    </aside>
+    <div class="clearfix"></div>
+    <footer>
+        &copy;Clarios 2020. Todos los derechos reservados.
+    </footer>
+    </div>
+    </body>
+</html>
